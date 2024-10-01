@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01‗01", "01‗01.vcxproj", "{5AD594CA-5288-4F16-91C7-E0D9D913B6ED}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PG3", "01‗01.vcxproj", "{5AD594CA-5288-4F16-91C7-E0D9D913B6ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ソリューション項目", "ソリューション項目", "{90DA5E61-26BB-449B-9864-0CD87DECF33E}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
