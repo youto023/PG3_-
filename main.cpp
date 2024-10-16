@@ -4,10 +4,10 @@
 
 // 奇数か偶数かを判定する関数
 void CheckEvenOdd(int dice, void (*callback)(int)) {
-    callback(dice);  // 関数ポインタでコールバックを呼び出す
+    callback(dice);  // 関数ポインタで呼び出す
 }
 
-// コールバック関数：結果を表示
+// 結果を表示
 void ResultCallback(int dice) {
     if (dice % 2 == 0) {
         printf("サイコロの目は %d で偶数です！\n", dice);
@@ -41,13 +41,13 @@ int main(void) {
         printf("無効な入力です。1（奇数）または 2（偶数）を入力してください。\n");
 
         // 入力バッファをクリア
-        while (getchar() != '\n'); // scanfによる不正入力をクリアする
+        while (getchar() != '\n'); //不正入力を消去する
 
         // 再度入力を促す
         printf("サイコロの目は奇数(1)か偶数(2)かを当ててください: ");
     }
 
-    // サイコロを振る（1〜6のランダムな数字を生成）
+    // サイコロを振る
     dice = rand() % 6 + 1;
 
     // 3秒間待つ
