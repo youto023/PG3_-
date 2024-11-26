@@ -129,7 +129,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Aircontion.cpp" />
+    <ClCompile Include="electricity.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="refrigerator.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Aircontion.h" />
+    <ClInclude Include="electricity.h" />
+    <ClInclude Include="refrigerator.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
